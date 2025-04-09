@@ -58,7 +58,6 @@ const LernVotingList = () => {
     "3": "Academia",
   };
 
-
   const fetchData = async () => {
     let selectedCategory = "";
     if (selectedTab === "1") {

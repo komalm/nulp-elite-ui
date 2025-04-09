@@ -108,7 +108,7 @@ const Player = () => {
       }
     },
     [assessEvents]
-  );
+  ); 
   const handleAssessmentData = async (data) => {
     console.log("data  handleAssessmentData----", data);
     if (data.eid === "ASSESS") {
